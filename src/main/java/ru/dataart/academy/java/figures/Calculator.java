@@ -10,7 +10,6 @@ public class Calculator {
     public double getArea() {
         double area = 0;
         for (Figure f : figures) {
-            System.out.println(f + " " + f.getArea());
             area += f.getArea();
         }
         return area;
