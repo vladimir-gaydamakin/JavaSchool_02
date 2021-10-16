@@ -1,7 +1,7 @@
 package ru.dataart.academy.java.figures;
 
 public class Cirle extends Figure {
-    private double radius;
+    private final double radius;
 
     public Cirle(double radius) {
         this.radius = radius;
