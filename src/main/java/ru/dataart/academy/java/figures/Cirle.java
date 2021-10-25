@@ -5,7 +5,7 @@ public class Cirle extends Figure {
 
     public Cirle(double radius) {
         if (radius <= 0) {
-            throw new IllegalArgumentException("please enter positive number");
+            throw new IllegalArgumentException("Please enter positive number");
         }
         this.radius = radius;
     }
