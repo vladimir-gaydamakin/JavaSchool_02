@@ -6,7 +6,7 @@ public class Rectangle extends Figure {
 
     public Rectangle(double length, double width) {
         if (width <= 0 || length <= 0) {
-            throw new IllegalArgumentException("please enter positive number");
+            throw new IllegalArgumentException("Please enter positive numbers");
         }
         this.width = width;
         this.length = length;
